@@ -1,0 +1,45 @@
+.footer {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ddd;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  color: #226ec5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* custom */
+.nameD {
+  color: #569fff !important;
+  font-weight: 600;
+}
+
+.github {
+  color: #569fff !important;
+  text-decoration: none !important;
+}
+
+.nameD,
+.github {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
