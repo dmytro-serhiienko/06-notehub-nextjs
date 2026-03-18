@@ -3,19 +3,19 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
-  color: white;
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
 }
 
 .header a {
   text-decoration: none;
-  color: white;
+  color: var(--color-header-text);
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .header a:hover {
-  color: #ddd;
+  color: var(--color-primary-soft-border);
 }
 
 .navigation {
@@ -28,10 +28,10 @@
 
 .navigation li a {
   text-decoration: none;
-  color: white;
+  color: var(--color-header-text);
   font-size: 1rem;
 }
 
 .navigation li a:hover {
-  color: #ddd;
+  color: var(--color-primary-soft-border);
 }

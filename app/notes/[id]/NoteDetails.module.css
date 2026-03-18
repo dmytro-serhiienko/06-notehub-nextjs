@@ -6,7 +6,7 @@
   max-width: 800px;
   margin: 32px auto;
   padding: 24px;
-  background-color: #ffffff;
+  background-color: var(--color-surface);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
@@ -21,26 +21,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-border);
   padding-bottom: 8px;
 }
 
 .header h2 {
   margin: 0;
   font-size: 28px;
-  color: #333;
+  color: var(--color-text);
 }
 
 .content {
   font-size: 18px;
   line-height: 26px;
-  color: #444;
+  color: var(--color-text-muted);
   white-space: pre-wrap;
 }
 
 .date {
   font-size: 14px;
-  color: #888;
+  color: var(--color-text-subtle);
   text-align: right;
 }
 
@@ -48,9 +48,9 @@
   display: inline-block;
   padding: 4px 8px;
   font-size: 12px;
-  color: #0d6efd;
-  background-color: #e7f1ff;
-  border: 1px solid #b6d4fe;
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  border: 1px solid var(--color-primary-soft-border);
   border-radius: 12px;
   max-width: 100px;
   white-space: nowrap;

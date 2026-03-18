@@ -1,10 +1,10 @@
 .footer {
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: var(--color-header-bg);
   text-align: center;
   font-size: 14px;
-  color: #555;
-  border-top: 1px solid #ddd;
+  color: var(--color-header-text);
+  /* border-top: 1px solid #ddd; */
 }
 
 .wrap {
@@ -14,7 +14,7 @@
 }
 
 .footer a {
-  color: #226ec5;
+  color: var(--color-primary-soft-border);
   font-weight: 600;
   text-decoration: none;
 }
@@ -25,12 +25,12 @@
 
 /* custom */
 .nameD {
-  color: #569fff !important;
+  color: var(--color-primary-soft-border) !important;
   font-weight: 600;
 }
 
 .github {
-  color: #569fff !important;
+  color: var(--color-primary-soft-border) !important;
   text-decoration: none !important;
 }
 
